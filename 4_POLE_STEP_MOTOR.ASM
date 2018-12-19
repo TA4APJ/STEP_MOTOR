@@ -1,4 +1,4 @@
-	;---------------›K› Y÷NL‹ BIPOLAR STEP MOTOR KONTROL------------------------
+	;---------------√ùK√ù Y√ñNL√ú BIPOLAR STEP MOTOR KONTROL------------------------
 	LIST	P=16F877A
 	INCLUDE	"P16F877A.INC"
 	__CONFIG	_LVP_OFF&_BODEN_OFF&_CP_OFF&_WDT_OFF&_PWRTE_ON&_XT_OSC
@@ -56,23 +56,23 @@ TEST2
 
 CEVTAB
 	ADDWF	PCL,F
-	RETLW b'1000' ;0.ad˝m
-	RETLW b'1100' ;1.ad˝m
-	RETLW b'0100' ;2.ad˝m
-	RETLW b'0110' ;3.ad˝m
-	RETLW b'0010' ;4.ad˝m
-	RETLW b'0011' ;5.ad˝m
-	RETLW b'0001' ;6.ad˝m
-	RETLW b'1001' ;7.ad˝m
+	RETLW b'1000' ;0.ad√Ωm
+	RETLW b'1100' ;1.ad√Ωm
+	RETLW b'0100' ;2.ad√Ωm
+	RETLW b'0110' ;3.ad√Ωm
+	RETLW b'0010' ;4.ad√Ωm
+	RETLW b'0011' ;5.ad√Ωm
+	RETLW b'0001' ;6.ad√Ωm
+	RETLW b'1001' ;7.ad√Ωm
 
-;	RETLW b'0001' ;0.ad˝m
-;	RETLW b'1001' ;1.ad˝m
-;	RETLW b'1000' ;2.ad˝m
-;	RETLW b'1010' ;3.ad˝m
-;	RETLW b'0010' ;4.ad˝m
-;	RETLW b'0110' ;5.ad˝m
-;	RETLW b'0100' ;6.ad˝m
-;	RETLW b'0101' ;7.ad˝m
+;	RETLW b'0001' ;0.ad√Ωm
+;	RETLW b'1001' ;1.ad√Ωm
+;	RETLW b'1000' ;2.ad√Ωm
+;	RETLW b'1010' ;3.ad√Ωm
+;	RETLW b'0010' ;4.ad√Ωm
+;	RETLW b'0110' ;5.ad√Ωm
+;	RETLW b'0100' ;6.ad√Ωm
+;	RETLW b'0101' ;7.ad√Ωm
 	
 GECIK				;10ms 
 	MOVLW	H'58'
@@ -87,5 +87,3 @@ DN2
 	GOTO	DN1
 	RETURN
 	END	
-; --------------------Burak ﬁEN ›nˆn¸ ‹niversitesi-------------------- 
-;------------Elektrik Elektronik M¸hendislii ÷rencisi-----------------
